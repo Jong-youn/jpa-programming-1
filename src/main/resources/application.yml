@@ -11,9 +11,9 @@ spring:
       hibernate:
 #        show_sql: true
         format_sql: true
-  thymeleaf:
-    prefix: classpath:/tmeplates/
-    suffix: .html
+#  thymeleaf:
+#    prefix: classpath:resources/tmeplates/
+#    suffix: .html
 logging.level:
   org.hibernate.SQL: debug
   org.hibernate.orm.jdbc.bind: trace #??? ?? 3.x, hibernate6
